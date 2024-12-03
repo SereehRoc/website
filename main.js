@@ -9,6 +9,10 @@ const config = {
         create,
         update,
     },
+    scale: {
+        mode: Phaser.Scale.FIT, // Ensures the game fits within the available space
+        autoCenter: Phaser.Scale.CENTER_BOTH, // Centers the game on the screen
+    }
 };
 
 // Variables to manage game state
