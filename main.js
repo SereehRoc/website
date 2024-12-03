@@ -132,7 +132,7 @@ class TTTBoard {
                 filledBoxes++;
             }
         }
-        console.log('filled boxes:', filledBoxes );
+        //console.log('filled boxes:', filledBoxes );
         if (filledBoxes ==9) {return true;}
         return false;
     }
@@ -300,7 +300,7 @@ function update() {
         }
     }
 
-    console.log('gamestatus: ', gameStatus);
+    //console.log('gamestatus: ', gameStatus);
 
     //draw the stuff
     gamePieces.forEach(piece => piece.destroy()); //inefficient to destroy each frame but whatever
